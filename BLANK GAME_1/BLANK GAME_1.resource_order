@@ -19,6 +19,7 @@
   "ResourceOrderSettings":[
     {"name":"obj_arrow","order":3,"path":"objects/obj_arrow/obj_arrow.yy",},
     {"name":"obj_bow","order":2,"path":"objects/obj_bow/obj_bow.yy",},
+    {"name":"obj_enemy","order":5,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"obj_target","order":4,"path":"objects/obj_target/obj_target.yy",},
     {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"spr_arrow_down","order":4,"path":"sprites/spr_arrow_down/spr_arrow_down.yy",},
@@ -26,6 +27,7 @@
     {"name":"spr_arrow_right","order":10,"path":"sprites/spr_arrow_right/spr_arrow_right.yy",},
     {"name":"spr_arrow_up","order":8,"path":"sprites/spr_arrow_up/spr_arrow_up.yy",},
     {"name":"spr_bow","order":2,"path":"sprites/spr_bow/spr_bow.yy",},
+    {"name":"spr_enemy","order":12,"path":"sprites/spr_enemy/spr_enemy.yy",},
     {"name":"spr_player_down","order":7,"path":"sprites/spr_player_down/spr_player_down.yy",},
     {"name":"spr_player_left","order":5,"path":"sprites/spr_player_left/spr_player_left.yy",},
     {"name":"spr_player_right","order":6,"path":"sprites/spr_player_right/spr_player_right.yy",},

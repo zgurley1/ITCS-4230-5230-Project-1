@@ -1,12 +1,19 @@
 /// @description Insert description here
 // You can write your code in this editor
-right_key = keyboard_check(vk_right);
-left_key = keyboard_check(vk_left);
-up_key = keyboard_check(vk_up);
-down_key = keyboard_check(vk_down);
 
-xspd = (right_key - left_key) * movespd;
-yspd = (down_key - up_key) * movespd;
+var up = keyboard_check(ord("W"));
+var down = keyboard_check(ord("S"));
+var left = keyboard_check(ord("A"));
+var right = keyboard_check(ord("D"));
+
+
+//right_key = keyboard_check(vk_right);
+//left_key = keyboard_check(vk_left);
+//up_key = keyboard_check(vk_up);
+//down_key = keyboard_check(vk_down);
+
+xspd = (right - left) * movespd;
+yspd = (down - up) * movespd;
 
 if place_meeting(x + xspd, y, obj_wall) == true
 {
@@ -17,19 +24,19 @@ if place_meeting(x, y + yspd, obj_wall) == true
 	yspd = 0;
 }
 	
-if up_key
+if up
 {
 	sprite_index = spr_player_up
 }
-if down_key
+if down
 {
 	sprite_index = spr_player_down
 }
-if left_key
+if left
 {
 	sprite_index = spr_player_left
 }
-if right_key
+if right
 {
 	sprite_index = spr_player_right
 }
