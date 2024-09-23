@@ -5,4 +5,4 @@
 
 holding_bow = true;
 
-instance_destroy(obj_bow);
+instance_destroy(other.id);

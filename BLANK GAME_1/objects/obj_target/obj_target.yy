@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall",
+  "%Name":"obj_target",
   "eventList":[],
   "managed":true,
-  "name":"obj_wall",
+  "name":"obj_target",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -26,10 +26,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"spr_wall",
-    "path":"sprites/spr_wall/spr_wall.yy",
+    "name":"spr_teleport_target",
+    "path":"sprites/spr_teleport_target/spr_teleport_target.yy",
   },
   "spriteMaskId":null,
   "visible":true,

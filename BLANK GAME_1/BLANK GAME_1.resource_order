@@ -19,6 +19,7 @@
   "ResourceOrderSettings":[
     {"name":"obj_arrow","order":3,"path":"objects/obj_arrow/obj_arrow.yy",},
     {"name":"obj_bow","order":2,"path":"objects/obj_bow/obj_bow.yy",},
+    {"name":"obj_target","order":4,"path":"objects/obj_target/obj_target.yy",},
     {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"spr_arrow_down","order":4,"path":"sprites/spr_arrow_down/spr_arrow_down.yy",},
     {"name":"spr_arrow_left","order":9,"path":"sprites/spr_arrow_left/spr_arrow_left.yy",},
@@ -29,6 +30,7 @@
     {"name":"spr_player_left","order":5,"path":"sprites/spr_player_left/spr_player_left.yy",},
     {"name":"spr_player_right","order":6,"path":"sprites/spr_player_right/spr_player_right.yy",},
     {"name":"spr_sword","order":3,"path":"sprites/spr_sword/spr_sword.yy",},
+    {"name":"spr_teleport_target","order":11,"path":"sprites/spr_teleport_target/spr_teleport_target.yy",},
     {"name":"spr_wall","order":1,"path":"sprites/spr_wall/spr_wall.yy",},
   ],
 }

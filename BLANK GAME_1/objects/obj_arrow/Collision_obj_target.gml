@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-instance_destroy();
+obj_player.x = other.x
+obj_player.y = other.y
 
 
+instance_destroy()
