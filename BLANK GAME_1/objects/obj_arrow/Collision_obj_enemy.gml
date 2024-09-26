@@ -4,4 +4,5 @@
 
 other.enemy_health -= damage;
 
+
 instance_destroy();
