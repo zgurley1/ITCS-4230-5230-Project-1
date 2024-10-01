@@ -94,33 +94,34 @@ if (mouse_check_button_pressed(mb_right) && attack_timer == 0) {
 		image_speed = 1;// Start animation from the beginning
 		attack_timer = sprite_get_number(sprite_index) * 3;
 		
-		if ((image_index > 2) and (image_index <= 5)) {
-			with(instance_create(x, y, obj_hitbox)) {
-				
-				
-			}
-		}
+		instance_create_layer(x,y, "Instances", obj_hitbox_down)
 	}
 	
-	if ((sprite_index == spr_green_run_left) || (sprite_index == spr_green_idle_left)) {
+	else if ((sprite_index == spr_green_run_left) || (sprite_index == spr_green_idle_left)) {
 		sprite_index = spr_green_hit_left;  // Set attack sprite
 		image_index = 0; 
 		image_speed = 1;// Start animation from the beginning
 		attack_timer = sprite_get_number(sprite_index) * 3; 
+		
+		instance_create_layer(x,y, "Instances", obj_hitbox_left)
 	}
 	
-	if ((sprite_index == spr_green_run_right) || (sprite_index == spr_green_idle_right)) {
+	else if ((sprite_index == spr_green_run_right) || (sprite_index == spr_green_idle_right)) {
 		sprite_index = spr_green_hit_right;  // Set attack sprite
 		image_index = 0; 
 		image_speed = 1;// Start animation from the beginning
 		attack_timer = sprite_get_number(sprite_index) * 3;
+		
+		instance_create_layer(x,y, "Instances", obj_hitbox_right)
 	}
 	
-	if ((sprite_index == spr_green_run_up) || (sprite_index == spr_green_idle_up)) {
+	else if ((sprite_index == spr_green_run_up) || (sprite_index == spr_green_idle_up)) {
 		sprite_index = spr_green_hit_up;  // Set attack sprite
 		image_index = 0; 
 		image_speed = 1;// Start animation from the beginning
 		attack_timer = sprite_get_number(sprite_index) * 3; 
+		
+		instance_create_layer(x,y, "Instances", obj_hitbox_up)
 	}
 
 }
