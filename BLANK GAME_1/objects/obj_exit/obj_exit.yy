@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall",
+  "%Name":"obj_exit",
   "eventList":[],
   "managed":true,
-  "name":"obj_wall",
+  "name":"obj_exit",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -26,10 +26,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"spr_wall",
-    "path":"sprites/spr_wall/spr_wall.yy",
+    "name":"spr_exit",
+    "path":"sprites/spr_exit/spr_exit.yy",
   },
   "spriteMaskId":null,
   "visible":false,
