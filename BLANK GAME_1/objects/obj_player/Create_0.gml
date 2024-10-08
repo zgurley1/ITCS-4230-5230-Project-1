@@ -7,4 +7,4 @@ attack_timer = 0;
 
 movespd = 1;
 
-holding_bow = false;
+//holding_bow = false;
