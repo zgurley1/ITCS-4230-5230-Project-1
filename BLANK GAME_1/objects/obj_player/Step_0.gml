@@ -16,13 +16,11 @@ var last_direction = ""
 xspd = (right - left) * movespd;
 yspd = (down - up) * movespd;
 
-if place_meeting(x + xspd, y, obj_wall) == true or place_meeting(x + xspd, y, obj_pit) == true
-	and (obj_ab_wall.collides == false or !place_meeting(x + xspd, y, obj_ab_wall) == true)
+if place_meeting(x + xspd, y, obj_wall) or place_meeting(x + xspd, y, obj_pit)
 {
 	xspd = 0;
 }
-if place_meeting(x, y + yspd, obj_wall) == true or place_meeting(x, y + yspd, obj_pit) == true
-	and (obj_ab_wall.collides == false or !place_meeting(x, y + yspd, obj_ab_wall) == true)
+if place_meeting(x, y + yspd, obj_wall) or place_meeting(x, y + yspd, obj_pit)
 {
 	yspd = 0;
 }
