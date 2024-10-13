@@ -1,6 +1,7 @@
 /// @description Create global fireball Array (300 spaces)
-global.fireball_array = [300]
+global.fireball_array = []
+global.wizardport_array = []
+
+show_debug_message(global.wizardport_array);
 
 counter = 0;
-
-alarm[0] = fireball_delay;
