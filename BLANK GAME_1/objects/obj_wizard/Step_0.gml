@@ -2,12 +2,12 @@
 
 //If in the Idle State, find an attack at random (WIP only one attack)
 if(boss_state == STATE.IDLE && attack_ready) {
-	var _attack_select = irandom_range(ATTACKS.BULLET_HELL,ATTACKS.BULLET_HELL);
+	var _attack_select = irandom_range(ATTACKS.BULLET_HELL,ATTACKS.BIG_FIREBALL);
 	
 	switch(_attack_select) {
 		case ATTACKS.BULLET_HELL:
 			boss_state = STATE.BULLET_HELL;
-			attack_ready = false
+			attack_ready = false;
 			
 			//Adjust sprite
 			sprite_index =spr_wizard_attack;
@@ -16,6 +16,30 @@ if(boss_state == STATE.IDLE && attack_ready) {
 			with(obj_fireball_controller) {
 				event_user(0)
 			}
+			break;
+		case ATTACKS.FIREBOLT:
+			boss_state = STATE.SHOOT_FIREBOLT;
+			attack_ready = false;
+			
+			//Adjust sprite
+			sprite_index =spr_wizard_attack;
+			
+			//Start shooting firebolts
+			alarm[1] = firebolt_delay;
+			break;
+		case ATTACKS.BIG_FIREBALL:
+			boss_state = STATE.BIG_FIREBALL;
+			attack_ready = false;
+			
+			//Adjust sprite
+			sprite_index =spr_wizard_attack;
+			
+			//Shoot the big fireball
+			big_fireball = instance_create_layer(x,y,"Instances",obj_fireball_followball,
+			{
+				image_xscale: .5,
+				image_yscale: .5
+			});
 			break;
 	}
 }
