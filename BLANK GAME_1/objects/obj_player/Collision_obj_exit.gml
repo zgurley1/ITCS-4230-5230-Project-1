@@ -2,3 +2,4 @@
 var otherRoom = other.roomName
 
 room_goto(asset_get_index(otherRoom))
+

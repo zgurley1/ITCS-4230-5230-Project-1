@@ -8,7 +8,6 @@
   "instanceCreationOrder":[
     {"name":"inst_5C89F6C8","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_2C716FA6","path":"rooms/Room4/Room4.yy",},
-    {"name":"inst_7E10E2D8","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_3D3A01A2","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_5DC9369B","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_106B5FD1","path":"rooms/Room4/Room4.yy",},
@@ -289,7 +288,6 @@
     {"name":"inst_1EDBF90F","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_12655018","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_674E930E","path":"rooms/Room4/Room4.yy",},
-    {"name":"inst_62DD75EB","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_13EB7B93","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_444DD2F5","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_BF60A64","path":"rooms/Room4/Room4.yy",},
@@ -631,6 +629,7 @@
     {"name":"inst_232D6FF6","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_45DAD251","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_39D32B45","path":"rooms/Room4/Room4.yy",},
+    {"name":"inst_4896027C","path":"rooms/Room4/Room4.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -1255,9 +1254,8 @@
       ],"layers":[],"name":"Collisions","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_45DAD251","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_45DAD251","objectId":{"name":"obj_wizard","path":"objects/obj_wizard/obj_wizard.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":160.0,},
-        {"$GMRInstance":"v1","%Name":"inst_7E10E2D8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7E10E2D8","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":352.0,},
         {"$GMRInstance":"v1","%Name":"inst_5C89F6C8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5C89F6C8","objectId":{"name":"obj_fireball_controller","path":"objects/obj_fireball_controller/obj_fireball_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":32.0,},
-        {"$GMRInstance":"v1","%Name":"inst_62DD75EB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_62DD75EB","objectId":{"name":"obj_bow","path":"objects/obj_bow/obj_bow.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":384.0,},
+        {"$GMRInstance":"v1","%Name":"inst_4896027C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4896027C","objectId":{"name":"obj_startpos","path":"objects/obj_startpos/obj_startpos.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":352.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRPathLayer":"","%Name":"Bullethell","colour":4278190335,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Bullethell","pathId":{"name":"path_fireball_bullethell","path":"paths/path_fireball_bullethell/path_fireball_bullethell.yy",},"properties":[],"resourceType":"GMRPathLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Wizardports","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
