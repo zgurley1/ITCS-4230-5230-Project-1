@@ -9,7 +9,7 @@ if(enemy_count < enemy_limit) {
 	} until (point_distance(obj_player.x, obj_player.y, _spawn_x, _spawn_y) > 10);
 	
 	layer_sequence_create(layer, _spawn_x,_spawn_y , seq_enemy_in);
-	instance_create_layer(_spawn_x,_spawn_y ,layer,obj_slime);
+	instance_create_layer(_spawn_x,_spawn_y ,layer,obj_slime, {spawner_enemy: true});
 	enemy_count++;
 		
 	alarm[0] = enemy_delay;
