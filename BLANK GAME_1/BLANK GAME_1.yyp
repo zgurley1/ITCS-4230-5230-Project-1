@@ -42,6 +42,7 @@
     {"id":{"name":"obj_B_block","path":"objects/obj_B_block/obj_B_block.yy",},},
     {"id":{"name":"obj_bow","path":"objects/obj_bow/obj_bow.yy",},},
     {"id":{"name":"obj_cheatcode_controller","path":"objects/obj_cheatcode_controller/obj_cheatcode_controller.yy",},},
+    {"id":{"name":"obj_endpos","path":"objects/obj_endpos/obj_endpos.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_exit","path":"objects/obj_exit/obj_exit.yy",},},
     {"id":{"name":"obj_fireball_controller","path":"objects/obj_fireball_controller/obj_fireball_controller.yy",},},

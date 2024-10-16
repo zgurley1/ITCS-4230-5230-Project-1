@@ -25,6 +25,7 @@
     {"name":"obj_B_block","order":18,"path":"objects/obj_B_block/obj_B_block.yy",},
     {"name":"obj_bow","order":2,"path":"objects/obj_bow/obj_bow.yy",},
     {"name":"obj_cheatcode_controller","order":22,"path":"objects/obj_cheatcode_controller/obj_cheatcode_controller.yy",},
+    {"name":"obj_endpos","order":35,"path":"objects/obj_endpos/obj_endpos.yy",},
     {"name":"obj_enemy","order":5,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"obj_exit","order":16,"path":"objects/obj_exit/obj_exit.yy",},
     {"name":"obj_fireball_controller","order":28,"path":"objects/obj_fireball_controller/obj_fireball_controller.yy",},

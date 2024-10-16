@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (obj_lever.a_block) {
+if (global.a_block) {
     // Activate A blocks and deactivate B blocks
     with (obj_A_block) {
         visible = true;
