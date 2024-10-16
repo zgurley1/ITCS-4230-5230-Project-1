@@ -32,6 +32,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"holding_bow","filters":[],"listItems":[],"multiselect":false,"name":"holding_bow","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"movespd","filters":[],"listItems":[],"multiselect":false,"name":"movespd","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

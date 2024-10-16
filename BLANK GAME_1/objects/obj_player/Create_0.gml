@@ -5,6 +5,6 @@ xspd = 0;
 yspd = 0;
 attack_timer = 0;
 
-movespd = 1;
+
 
 //holding_bow = false;
