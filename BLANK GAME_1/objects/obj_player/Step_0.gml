@@ -65,25 +65,16 @@ y += yspd;
 
 
 
-if mouse_check_button_pressed(mb_left) && holding_bow && not instance_exists(obj_arrow)
+if mouse_check_button_pressed(mb_left) && holding_bow && can_shoot
 {
-    var arrow;
-	arrow = instance_create_layer(x, y, "Instances", obj_arrow); // Create the arrow at the player's position
+    //var arrow;
+	//arrow = instance_create_layer(x, y, "Instances", obj_arrow); // Create the arrow at the player's position
+	
+	instance_create_layer(x, y, "Instances", obj_arrow); // Create the arrow at the player's position
 
-	// Check player's sprite and set the arrow's direction
-	if (sprite_index == spr_green_run_up or sprite_index == spr_green_idle_up) {
-	    arrow.direction = 90; // Move upwards
-		arrow.sprite_index = spr_arrow_up
-	} else if (sprite_index == spr_green_run_down or sprite_index == spr_green_idle_down) {
-	    arrow.direction = 270; // Move downwards
-		arrow.sprite_index = spr_arrow_down
-	} else if (sprite_index == spr_green_run_left or sprite_index == spr_green_idle_left) {
-	    arrow.direction = 180; // Move left
-		arrow.sprite_index = spr_arrow_left
-	} else if (sprite_index == spr_green_run_right or sprite_index == spr_green_idle_right) {
-	    arrow.direction = 0; // Move right
-		arrow.sprite_index = spr_arrow_right
-	}
+	
+	can_shoot = false
+	alarm_set(0, shoot_speed) 
 }
 
 if (mouse_check_button_pressed(mb_right) && attack_timer == 0) {
