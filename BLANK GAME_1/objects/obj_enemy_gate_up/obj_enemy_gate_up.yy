@@ -2,7 +2,6 @@
   "$GMObject":"",
   "%Name":"obj_enemy_gate_up",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":79,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -30,9 +29,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"other_gate","filters":[],"listItems":[],"multiselect":false,"name":"other_gate","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_enemy_gate_down","path":"objects/obj_enemy_gate_down/obj_enemy_gate_down.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_enemy_gate_down","varType":5,},
-    {"$GMObjectProperty":"v1","%Name":"other_animation","filters":[],"listItems":[],"multiselect":false,"name":"other_animation","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
-    {"$GMObjectProperty":"v1","%Name":"enemy_quota","filters":[],"listItems":[],"multiselect":false,"name":"enemy_quota","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"linked_gate_instance","filters":[],"listItems":[],"multiselect":false,"name":"linked_gate_instance","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"enemy_offset","filters":[],"listItems":[],"multiselect":false,"name":"enemy_offset","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
