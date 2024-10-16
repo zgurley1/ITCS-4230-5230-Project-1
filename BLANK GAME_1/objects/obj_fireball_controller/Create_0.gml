@@ -1,6 +1,7 @@
-/// @description Create global fireball Array (300 spaces)
-global.fireball_array = []
-global.wizardport_array = []
+/// @description Create global arrays
+global.fireball_array = [];
+global.wizardport_array = [];
+global.gates_array = [];
 
 show_debug_message(global.wizardport_array);
 
