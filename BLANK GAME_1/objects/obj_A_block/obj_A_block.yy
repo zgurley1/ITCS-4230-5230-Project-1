@@ -3,6 +3,8 @@
   "%Name":"obj_A_block",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_A_block",
@@ -25,13 +27,15 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"other_block","filters":[],"listItems":[],"multiselect":false,"name":"other_block","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_B_block","path":"objects/obj_B_block/obj_B_block.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_B_block","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_A_block",
-    "path":"sprites/spr_A_block/spr_A_block.yy",
+    "name":"spr_block_up",
+    "path":"sprites/spr_block_up/spr_block_up.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -4,12 +4,17 @@
   "eventList":[],
   "managed":true,
   "name":"obj_B_block",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_A_block","path":"objects/obj_A_block/obj_A_block.yy",},"propertyId":{"name":"other_block","path":"objects/obj_A_block/obj_A_block.yy",},"resource":{"name":"obj_A_block","path":"objects/obj_A_block/obj_A_block.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_A_block",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_A_block",
+    "path":"objects/obj_A_block/obj_A_block.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,9 +33,12 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_B_block",
-    "path":"sprites/spr_B_block/spr_B_block.yy",
+    "name":"spr_block_down",
+    "path":"sprites/spr_block_down/spr_block_down.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_empty_collision",
+    "path":"sprites/spr_empty_collision/spr_empty_collision.yy",
+  },
   "visible":true,
 }
