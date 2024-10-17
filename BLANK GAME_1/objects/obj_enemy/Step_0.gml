@@ -4,10 +4,11 @@ if enemy_health <= 0
 {
 	instance_destroy();	
 }
+	//show_debug_message(ignore_player);
 
-if instance_exists(obj_player)
+if (instance_exists(obj_player))
 {
-	if (x-obj_player.x <= 20 and y-obj_player.y <= 20)
+	if ((x-obj_player.x <= 20 and y-obj_player.y <= 20) and !ignore_player)
 	{
 		enemy_state = ENEMYSTATE.CHASING
 	} else

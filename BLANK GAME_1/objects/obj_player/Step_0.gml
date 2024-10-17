@@ -16,14 +16,30 @@ var last_direction = ""
 xspd = (right - left) * movespd;
 yspd = (down - up) * movespd;
 
-if (scr_collision_x())
-{
-	xspd = 0
-}
 
-if (scr_collision_y())
-{
+if(knockback = true) {
+	var _x = lengthdir_x(1, knockback_dir);
+	xspd = 0
+	var _y = lengthdir_y(1, knockback_dir);
 	yspd = 0
+	
+	if(!scr_collision_x(_x)) {
+		x += _x;
+	}
+	
+	if(!scr_collision_y(_y)) {
+		y += _y;
+	}
+} else {
+	if (scr_collision_x(xspd))
+	{
+		xspd = 0
+	}
+
+	if (scr_collision_y(yspd))
+	{
+		yspd = 0
+	}
 }
 
 /*
@@ -144,4 +160,3 @@ if (attack_timer > 0) {
         }
     }
 }
-
