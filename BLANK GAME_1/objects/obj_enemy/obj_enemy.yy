@@ -3,6 +3,9 @@
   "%Name":"obj_enemy",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_enemy",
@@ -27,6 +30,12 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"spawner_enemy","filters":[],"listItems":[],"multiselect":false,"name":"spawner_enemy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"enemy_health","filters":[],"listItems":[],"multiselect":false,"name":"enemy_health","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"30","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"idle_time","filters":[],"listItems":[],"multiselect":false,"name":"idle_time","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"120","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"movement_time","filters":[],"listItems":[],"multiselect":false,"name":"movement_time","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"idle_time * 4","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"movespd","filters":[],"listItems":[],"multiselect":false,"name":"movespd","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":".25","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"xspd","filters":[],"listItems":[],"multiselect":false,"name":"xspd","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"movespd","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"yspd","filters":[],"listItems":[],"multiselect":false,"name":"yspd","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"movespd","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
