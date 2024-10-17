@@ -52,6 +52,8 @@
     {"id":{"name":"obj_fireball_followball","path":"objects/obj_fireball_followball/obj_fireball_followball.yy",},},
     {"id":{"name":"obj_fireball_pathball","path":"objects/obj_fireball_pathball/obj_fireball_pathball.yy",},},
     {"id":{"name":"obj_firebolt","path":"objects/obj_firebolt/obj_firebolt.yy",},},
+    {"id":{"name":"obj_gate_down","path":"objects/obj_gate_down/obj_gate_down.yy",},},
+    {"id":{"name":"obj_gate_up","path":"objects/obj_gate_up/obj_gate_up.yy",},},
     {"id":{"name":"obj_global_variables","path":"objects/obj_global_variables/obj_global_variables.yy",},},
     {"id":{"name":"obj_hitbox_down","path":"objects/obj_hitbox_down/obj_hitbox_down.yy",},},
     {"id":{"name":"obj_hitbox_left","path":"objects/obj_hitbox_left/obj_hitbox_left.yy",},},

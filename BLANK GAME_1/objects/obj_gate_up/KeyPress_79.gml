@@ -1,0 +1,2 @@
+/// @description TEST EVENT MOVE CODE TO PERMANENT PLACE ONE ENEMY DESIGN
+image_speed = 1;

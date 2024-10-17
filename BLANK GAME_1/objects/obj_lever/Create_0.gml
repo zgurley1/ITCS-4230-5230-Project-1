@@ -3,4 +3,4 @@
 image_speed = 0;
 obj_lever.image_index = default_lever;
 
-global.a_block = true
+delay = false

@@ -35,6 +35,8 @@
     {"name":"obj_fireball_followball","order":29,"path":"objects/obj_fireball_followball/obj_fireball_followball.yy",},
     {"name":"obj_fireball_pathball","order":30,"path":"objects/obj_fireball_pathball/obj_fireball_pathball.yy",},
     {"name":"obj_firebolt","order":31,"path":"objects/obj_firebolt/obj_firebolt.yy",},
+    {"name":"obj_gate_down","order":44,"path":"objects/obj_gate_down/obj_gate_down.yy",},
+    {"name":"obj_gate_up","order":43,"path":"objects/obj_gate_up/obj_gate_up.yy",},
     {"name":"obj_global_variables","order":41,"path":"objects/obj_global_variables/obj_global_variables.yy",},
     {"name":"obj_hitbox_down","order":11,"path":"objects/obj_hitbox_down/obj_hitbox_down.yy",},
     {"name":"obj_hitbox_left","order":9,"path":"objects/obj_hitbox_left/obj_hitbox_left.yy",},
