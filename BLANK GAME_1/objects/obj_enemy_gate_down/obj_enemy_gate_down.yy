@@ -38,6 +38,9 @@
     "name":"spr_gate_up",
     "path":"sprites/spr_gate_up/spr_gate_up.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_empty_collision",
+    "path":"sprites/spr_empty_collision/spr_empty_collision.yy",
+  },
   "visible":true,
 }

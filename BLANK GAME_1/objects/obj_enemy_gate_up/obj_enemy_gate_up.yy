@@ -29,7 +29,6 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"other_gate","filters":[],"listItems":[],"multiselect":false,"name":"other_gate","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_enemy_gate_down","path":"objects/obj_enemy_gate_down/obj_enemy_gate_down.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_enemy_gate_down","varType":5,},
-    {"$GMObjectProperty":"v1","%Name":"enemy_offset","filters":[],"listItems":[],"multiselect":false,"name":"enemy_offset","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"check_x1","filters":[],"listItems":[],"multiselect":false,"name":"check_x1","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"check_y1","filters":[],"listItems":[],"multiselect":false,"name":"check_y1","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"check_x2","filters":[],"listItems":[],"multiselect":false,"name":"check_x2","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},

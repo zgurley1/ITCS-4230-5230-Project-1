@@ -23,6 +23,12 @@ function scr_collision_x(_move_x){
 	} else if place_meeting(obj_player.x + _move_x, obj_player.y, obj_A_block)
 	{
 		return true
+	} else if place_meeting(obj_player.x + _move_x, obj_player.y, obj_enemy_gate_up)
+	{
+		return true
+	} else if place_meeting(obj_player.x + _move_x, obj_player.y, obj_gate_up)
+	{
+		return true
 	}
 	
 }
@@ -34,13 +40,21 @@ function scr_collision_y(_move_y){
 	} else if place_meeting(obj_player.x, obj_player.y + _move_y, obj_pit)
 	{
 		return true
-	} else if place_meeting(obj_player.x, obj_player.y + _move_y, obj_enemy)
-	{
-		return true
-	} else if place_meeting(obj_player.x, obj_player.y + _move_y, obj_lever)
+	} 
+	//else if place_meeting(obj_player.x, obj_player.y + _move_y, obj_enemy)
+	//{
+	//	return true
+	//} 
+	else if place_meeting(obj_player.x, obj_player.y + _move_y, obj_lever)
 	{
 		return true
 	} else if place_meeting(obj_player.x, obj_player.y + _move_y, obj_A_block)
+	{
+		return true
+	} else if place_meeting(obj_player.x, obj_player.y + _move_y, obj_enemy_gate_up)
+	{
+		return true
+	} else if place_meeting(obj_player.x, obj_player.y + _move_y, obj_gate_up)
 	{
 		return true
 	}
