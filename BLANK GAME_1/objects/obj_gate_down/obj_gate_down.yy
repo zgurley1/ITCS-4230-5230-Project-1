@@ -4,14 +4,16 @@
   "eventList":[],
   "managed":true,
   "name":"obj_gate_down",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_gate","path":"objects/obj_gate/obj_gate.yy",},"propertyId":{"name":"other_gate","path":"objects/obj_gate/obj_gate.yy",},"resource":{"name":"obj_gate_up","path":"objects/obj_gate_up/obj_gate_up.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_gate_up",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_gate_up",
-    "path":"objects/obj_gate_up/obj_gate_up.yy",
+    "name":"obj_gate",
+    "path":"objects/obj_gate/obj_gate.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

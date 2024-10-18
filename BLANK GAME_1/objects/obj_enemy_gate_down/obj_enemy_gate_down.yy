@@ -7,15 +7,15 @@
   "managed":true,
   "name":"obj_enemy_gate_down",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_gate_up","path":"objects/obj_enemy_gate_up/obj_enemy_gate_up.yy",},"propertyId":{"name":"other_gate","path":"objects/obj_enemy_gate_up/obj_enemy_gate_up.yy",},"resource":{"name":"obj_enemy_gate_up","path":"objects/obj_enemy_gate_up/obj_enemy_gate_up.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_enemy_gate_up",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_gate","path":"objects/obj_enemy_gate/obj_enemy_gate.yy",},"propertyId":{"name":"other_gate","path":"objects/obj_enemy_gate/obj_enemy_gate.yy",},"resource":{"name":"obj_enemy_gate_up","path":"objects/obj_enemy_gate_up/obj_enemy_gate_up.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_enemy_gate_up",},
   ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_enemy_gate_up",
-    "path":"objects/obj_enemy_gate_up/obj_enemy_gate_up.yy",
+    "name":"obj_enemy_gate",
+    "path":"objects/obj_enemy_gate/obj_enemy_gate.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
