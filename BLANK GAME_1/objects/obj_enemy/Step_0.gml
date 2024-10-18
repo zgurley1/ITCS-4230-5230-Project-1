@@ -21,7 +21,7 @@ else if (instance_exists(obj_player)) and enemy_state != ENEMYSTATE.IDLE
 
 if enemy_state == ENEMYSTATE.IDLE
 {
-	//alarm_set(1, idle_time)
+	alarm_set(1, idle_time)
 	speed = 0
 }
 else if enemy_state == ENEMYSTATE.MOVING
@@ -59,7 +59,7 @@ else if enemy_state == ENEMYSTATE.CHASING
 		
 		if scr_enemy_collision_x(self) or scr_enemy_collision_y(self)
 		{
-			enemy_state = ENEMYSTATE.IDLE	
+			enemy_state = ENEMYSTATE.MOVING	
 		}
 		
 		direction = point_direction(x,y,obj_player.x,obj_player.y);
