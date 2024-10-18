@@ -59,12 +59,13 @@ else if enemy_state == ENEMYSTATE.CHASING
 		
 		if scr_enemy_collision_x(self) or scr_enemy_collision_y(self)
 		{
-			enemy_state = ENEMYSTATE.MOVING	
+			enemy_state = ENEMYSTATE.MOVING
+			speed = 0;
+		} else {
+		
+			direction = point_direction(x,y,obj_player.x,obj_player.y);
+			speed = movespd
 		}
-		
-		direction = point_direction(x,y,obj_player.x,obj_player.y);
-		speed = movespd
-		
 		
 	}
 }
