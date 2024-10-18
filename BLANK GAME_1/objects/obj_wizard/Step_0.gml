@@ -38,7 +38,8 @@ if(boss_state == STATE.IDLE && attack_ready) {
 			big_fireball = instance_create_layer(x,y,"Instances",obj_fireball_followball,
 			{
 				image_xscale: .5,
-				image_yscale: .5
+				image_yscale: .5,
+				caster: id
 			});
 			break;
 	}

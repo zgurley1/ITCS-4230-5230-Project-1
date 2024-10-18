@@ -1,5 +1,5 @@
 /// @description 
 if(early) {
-	asset.boss_state = ENEMYSTATE.IDLE;
+	obj_wizard.boss_state = STATE.MOVING;
 }
 

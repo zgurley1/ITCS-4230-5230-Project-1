@@ -9,6 +9,10 @@ function scr_damage_and_knockback(attacker, target, damage, distance){
 	
 	target.knockback_dir = point_direction(attacker.x, attacker.y, target.x, target.y);
 	
-	target.knockback = true;
-	target.alarm[2] = distance;
+	if(distance > 0) {
+		target.alarm[2] = distance;
+		target.knockback = true;
+	} else {
+		target.alarm[2] = 10;
+	}
 }
