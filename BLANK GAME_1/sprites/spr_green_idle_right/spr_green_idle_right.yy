@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"spr_green_idle_right",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":23,
-  "bbox_left":10,
-  "bbox_right":21,
+  "bbox_left":11,
+  "bbox_right":20,
   "bbox_top":8,
   "collisionKind":1,
   "collisionTolerance":0,
