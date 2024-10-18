@@ -57,6 +57,12 @@ function scr_enemy_collision_y(enemy){
 	} else if place_meeting(enemy.x, enemy.y + offset, obj_target)
 	{
 		return true
+	} else if place_meeting(enemy.x, enemy.y + offset, obj_enemy_gate_up)
+	{
+		return true
+	} else if place_meeting(enemy.x, enemy.y + offset, obj_gate_up)
+	{
+		return true
 	}
 	
 }
