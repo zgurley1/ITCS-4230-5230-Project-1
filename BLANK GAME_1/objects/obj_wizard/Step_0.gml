@@ -87,4 +87,9 @@ if(boss_state == STATE.MOVING) {
 	if(audio_is_playing(followball_sound)) {
 		audio_stop_sound(followball_sound);
 	}
+	
+	//Play wizard laugh
+	if(!audio_is_playing(wizard_laugh)) {
+		audio_play_sound(wizard_laugh, 0, false);
+	}
 }

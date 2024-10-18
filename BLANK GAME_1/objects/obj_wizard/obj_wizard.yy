@@ -43,6 +43,7 @@
     {"$GMObjectProperty":"v1","%Name":"firewall_sound","filters":[],"listItems":[],"multiselect":false,"name":"firewall_sound","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_fire_long","path":"sounds/snd_fire_long/snd_fire_long.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_fire_long","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"firebolt_sound","filters":[],"listItems":[],"multiselect":false,"name":"firebolt_sound","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_fire_short","path":"sounds/snd_fire_short/snd_fire_short.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_fire_short","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"followball_sound","filters":[],"listItems":[],"multiselect":false,"name":"followball_sound","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_big_fireball","path":"sounds/snd_big_fireball/snd_big_fireball.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_big_fireball","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"wizard_laugh","filters":[],"listItems":[],"multiselect":false,"name":"wizard_laugh","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_boss_laugh","path":"sounds/snd_boss_laugh/snd_boss_laugh.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_boss_laugh","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
