@@ -12,7 +12,7 @@ if room == Room_Title {
 	
 		if layer_sequence_is_finished(eid){
 			
-			room_goto(Room1)
+			room_goto(Room5)
 		}	
 	
 	

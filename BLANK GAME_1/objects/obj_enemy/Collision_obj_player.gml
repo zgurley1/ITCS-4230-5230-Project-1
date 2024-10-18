@@ -11,5 +11,6 @@ if(!ignore_player) {
 }
 
 ignore_player = true;
+health -= enemy_damage
 
 alarm[2] = 10;

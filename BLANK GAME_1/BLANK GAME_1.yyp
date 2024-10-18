@@ -35,6 +35,7 @@
   },
   "name":"BLANK GAME_1",
   "resources":[
+    {"id":{"name":"fnt_scoreboard","path":"fonts/fnt_scoreboard/fnt_scoreboard.yy",},},
     {"id":{"name":"obj_A_block","path":"objects/obj_A_block/obj_A_block.yy",},},
     {"id":{"name":"obj_AB_wall_controller","path":"objects/obj_AB_wall_controller/obj_AB_wall_controller.yy",},},
     {"id":{"name":"obj_ab_wall","path":"objects/obj_ab_wall/obj_ab_wall.yy",},},
