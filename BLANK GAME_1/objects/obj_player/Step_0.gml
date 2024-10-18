@@ -91,6 +91,17 @@ if (attack_timer == 0) {
 x += xspd;
 y += yspd;
 
+//Play walking sound if walking
+if(xspd != 0  or yspd != 0) {
+	if(!audio_is_playing(walk_sound)){
+		audio_play_sound(walk_sound,0,false);
+	} 
+} else {
+	if(audio_is_playing(walk_sound)) {
+		audio_stop_sound(walk_sound);
+	} 
+}
+
 
 
 if mouse_check_button_pressed(mb_left) && holding_bow && can_shoot
@@ -103,6 +114,11 @@ if mouse_check_button_pressed(mb_left) && holding_bow && can_shoot
 	
 	can_shoot = false
 	alarm_set(0, shoot_speed) 
+	
+	//Play Bow Sound
+	if(!audio_is_playing(bow_sound)){
+		audio_play_sound(bow_sound,0,false,1,.3);
+	}
 }
 
 if (mouse_check_button_pressed(mb_right) && attack_timer == 0) {
@@ -142,7 +158,10 @@ if (mouse_check_button_pressed(mb_right) && attack_timer == 0) {
 		
 		instance_create_layer(x,y, "Instances", obj_hitbox_up)
 	}
-
+	
+	//Play Sword Sound
+	var _pitchrandom = random_range(0.7,1.1);
+	audio_play_sound(sword_sound,0,false,1,0,_pitchrandom);
 }
 
 // Attack timer countdown
