@@ -14,3 +14,5 @@ ignore_player = true;
 health -= enemy_damage
 
 alarm[2] = 10;
+
+audio_play_sound(snd_player_damage,1,false)
