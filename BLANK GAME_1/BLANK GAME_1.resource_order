@@ -60,6 +60,7 @@
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"Room3","order":2,"path":"rooms/Room3/Room3.yy",},
     {"name":"Room4","order":10,"path":"rooms/Room4/Room4.yy",},
+    {"name":"Room5","order":11,"path":"rooms/Room5/Room5.yy",},
     {"name":"scr_damage_and_knockback","order":3,"path":"scripts/scr_damage_and_knockback/scr_damage_and_knockback.yy",},
     {"name":"scr_enemy_collision","order":2,"path":"scripts/scr_enemy_collision/scr_enemy_collision.yy",},
     {"name":"scr_seq_destroy_self","order":1,"path":"scripts/scr_seq_destroy_self/scr_seq_destroy_self.yy",},
