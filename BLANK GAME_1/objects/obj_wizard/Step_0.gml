@@ -16,6 +16,11 @@ if(boss_state == STATE.IDLE && attack_ready) {
 			with(obj_fireball_controller) {
 				event_user(0)
 			}
+			
+			//Start firewall sound
+			if(!audio_is_playing(firewall_sound)) {
+				audio_play_sound(firewall_sound, 0,true);
+			}
 			break;
 		case ATTACKS.FIREBOLT:
 			boss_state = STATE.SHOOT_FIREBOLT;
@@ -41,6 +46,12 @@ if(boss_state == STATE.IDLE && attack_ready) {
 				image_yscale: .5,
 				caster: id
 			});
+			
+			//Play big fireball sound
+			//End all potential sounds
+			if(!audio_is_playing(followball_sound)) {
+				audio_play_sound(followball_sound, 0, false);
+			}
 			break;
 	}
 }
@@ -67,4 +78,13 @@ if(boss_state == STATE.MOVING) {
 	boss_state = STATE.IDLE;
 	
 	attack_ready = true;
+	
+	//End all potential sounds
+	if(audio_is_playing(firewall_sound)) {
+		audio_stop_sound(firewall_sound);
+	}
+	
+	if(audio_is_playing(followball_sound)) {
+		audio_stop_sound(followball_sound);
+	}
 }

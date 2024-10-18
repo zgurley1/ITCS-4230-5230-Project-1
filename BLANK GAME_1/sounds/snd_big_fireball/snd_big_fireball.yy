@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_boss_music",
+  "%Name":"snd_big_fireball",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":203.88568,
-  "name":"snd_boss_music",
+  "duration":5.328,
+  "name":"snd_big_fireball",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_boss_music.mp3",
+  "soundFile":"snd_big_fireball.mp3",
   "type":0,
-  "volume":0.57,
+  "volume":1.0,
 }
