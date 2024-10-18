@@ -12,7 +12,7 @@ if room == Room_Title {
 	
 		if layer_sequence_is_finished(eid){
 			
-			room_goto(Room5)
+			room_goto(Room_Start)
 		}	
 	
 	
@@ -28,8 +28,8 @@ if room == Room_Title {
 		var eid = arr[0]
 	
 		if layer_sequence_is_finished(eid){
-			
-			room_goto(Room1)
+			game_restart()
+			//room_goto(Room_Title)
 		}	
 			
 	}

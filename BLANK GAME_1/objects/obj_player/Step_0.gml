@@ -1,5 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
+if health <= 0 
+{
+	instance_destroy()
+	return
+}
+
 
 var up = keyboard_check(ord("W"));
 var down = keyboard_check(ord("S"));

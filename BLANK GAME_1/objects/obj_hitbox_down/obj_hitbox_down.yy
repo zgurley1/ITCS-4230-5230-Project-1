@@ -35,5 +35,5 @@
     "path":"sprites/spr_hitbox_down/spr_hitbox_down.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

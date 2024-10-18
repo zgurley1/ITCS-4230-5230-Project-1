@@ -1,6 +1,8 @@
 /// @description Insert description here
+
 if(!invincible) {
 	enemy_health -= 10;
+	
 }
 
 invincible = true;

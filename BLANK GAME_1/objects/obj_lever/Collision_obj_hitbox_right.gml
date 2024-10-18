@@ -8,4 +8,5 @@ if(delay = false) {
 	}
 
 	delay = true;
+	audio_play_sound(snd_gate,1,false)
 }

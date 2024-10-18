@@ -1,6 +1,6 @@
 /// @description Damage the player
 
-scr_damage_and_knockback(id, other, damage, knockback_distance);
+scr_damage_and_knockback(id, other, enemy_damage, knockback_distance);
 
 if(!ignore_player) {
 	enemy_state = ENEMYSTATE.MOVING
@@ -11,7 +11,6 @@ if(!ignore_player) {
 }
 
 ignore_player = true;
-health -= enemy_damage
 
 alarm[2] = 10;
 
