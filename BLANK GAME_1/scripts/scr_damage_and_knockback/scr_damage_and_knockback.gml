@@ -10,7 +10,7 @@ function scr_damage_and_knockback(attacker, target, damage, distance){
 			target.alarm[3] = distance * 3;
 			target.knockback = true;
 		} else {
-			target.alarm[2] = 10;
+			target.alarm[3] = 10;
 		}
 	}
 	target.invincible = true;
