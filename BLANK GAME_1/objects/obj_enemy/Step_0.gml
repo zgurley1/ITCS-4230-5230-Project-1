@@ -6,9 +6,9 @@ if enemy_health <= 0
 }
 	//show_debug_message(ignore_player);
 
-if (instance_exists(obj_player))
+else if (instance_exists(obj_player)) and enemy_state != ENEMYSTATE.IDLE
 {
-	if ((x-obj_player.x <= 20 and y-obj_player.y <= 20) and !ignore_player)
+	if (point_distance(x,y,obj_player.x, obj_player.y) <= attack_distance and !ignore_player)
 	{
 		enemy_state = ENEMYSTATE.CHASING
 	} else
@@ -17,9 +17,12 @@ if (instance_exists(obj_player))
 	}
 }
 
+
+
 if enemy_state == ENEMYSTATE.IDLE
 {
-	alarm_set(1, idle_time)
+	//alarm_set(1, idle_time)
+	speed = 0
 }
 else if enemy_state == ENEMYSTATE.MOVING
 {
@@ -53,7 +56,15 @@ else if enemy_state == ENEMYSTATE.CHASING
 	
 	if(instance_exists(obj_player)) {
 		//Set the direction of the bullet towards the player
+		
+		if scr_enemy_collision_x(self) or scr_enemy_collision_y(self)
+		{
+			enemy_state = ENEMYSTATE.IDLE	
+		}
+		
 		direction = point_direction(x,y,obj_player.x,obj_player.y);
 		speed = movespd
+		
+		
 	}
 }

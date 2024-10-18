@@ -30,6 +30,10 @@ function scr_enemy_collision_x(enemy){
 	{
 		return true
 	}
+	 else if place_meeting(enemy.x + offset, enemy.y, obj_target)
+	{
+		return true
+	}
 	
 }
 
@@ -48,6 +52,9 @@ function scr_enemy_collision_y(enemy){
 	{
 		return true
 	} else if place_meeting(enemy.x, enemy.y + offset, obj_A_block)
+	{
+		return true
+	} else if place_meeting(enemy.x, enemy.y + offset, obj_target)
 	{
 		return true
 	}
