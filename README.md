@@ -3,8 +3,11 @@
 ## Quadforge Games
 
 Designer: Andrew Soriano
+
 Programmer: Carson Jones
+
 Programmer: Zachary Gurley
+
 Producer: Henry Agyemang
 
 # Instructions
