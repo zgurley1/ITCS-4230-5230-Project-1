@@ -1,10 +1,35 @@
 # Team
+
 ## Quadforge Games
 
 Designer: Andrew Soriano
 Programmer: Carson Jones
 Programmer: Zachary Gurley
 Producer: Henry Agyemang
+
+# Instructions
+
+## Basic Controls
+
+Use WASD to move. Left Click to shoot the bow. Right Click to swing the sword. Press Escape to exit the game.
+
+## Core Mechanics
+
+Shoot targets to teleport to targets. Swing sword to deal damage to enemies.
+
+## Goal
+
+Get through all the rooms and defeat the boss to win!
+
+## Cheat Codes
+
+F1 - Activates and Deactivates Cheatcodes.
+F2 - Activates teleporting between rooms (you will need to do this every time you teleport between rooms). Then press 1, 2, 3, or 4 to teleport between various rooms (not all rooms in the game have button).
+F3 - Activate superspeed movement.
+F4 - Turn views on and off, allowing you to see the whole room.
+F5 - Allows you to teleport to teleport targets by clicking on them, without need of the bow and regardless of line of sight.
+F6 - Gives the player the bow.
+F7 - Toggle the ability to see enemy attack radius.
 
 # Licensing Information for Sprites
 
