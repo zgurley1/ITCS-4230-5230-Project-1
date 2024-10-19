@@ -4,7 +4,6 @@ if enemy_health <= 0
 {
 	instance_destroy();	
 }
-	//show_debug_message(ignore_player);
 
 else if (instance_exists(obj_player)) and enemy_state != ENEMYSTATE.IDLE
 {

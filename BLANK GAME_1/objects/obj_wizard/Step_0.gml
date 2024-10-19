@@ -66,10 +66,6 @@ if(boss_state == STATE.MOVING) {
 	}
 	until (global.wizardport_array[_port_select].x != x);
 	
-	show_debug_message(x);
-	show_debug_message(y);
-	show_debug_message(global.wizardport_array[_port_select].x);
-	show_debug_message(global.wizardport_array[_port_select].y);
 	
 	x = global.wizardport_array[_port_select].x;
 	y  = global.wizardport_array[_port_select].y;

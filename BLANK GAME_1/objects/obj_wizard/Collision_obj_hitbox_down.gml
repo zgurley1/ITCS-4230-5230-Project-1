@@ -3,7 +3,6 @@
 //Handle Damage
 if(!invincible) {
 	hitpoints -= 10;
-	show_debug_message(hitpoints);
 	
 	//Become invincible to prevent spam attacks
 	invincible = true;

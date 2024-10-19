@@ -16,12 +16,8 @@ if(check_y >= 0) {
 
 triggered_instance = instance_nearest(_xpass,_ypass,triggered_object)
 
-show_debug_message("My ID: {0}",id)
-show_debug_message("Triggering ID: {0}",triggered_instance)
-
 triggered = false;
 
 trigger = function() {
-	show_debug_message("Triggering");
 	triggered = false;
 }
