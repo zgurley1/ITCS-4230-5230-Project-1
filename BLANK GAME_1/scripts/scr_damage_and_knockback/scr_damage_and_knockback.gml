@@ -14,4 +14,5 @@ function scr_damage_and_knockback(attacker, target, damage, distance){
 		}
 	}
 	target.invincible = true;
+	target.damaged_now = true;
 }

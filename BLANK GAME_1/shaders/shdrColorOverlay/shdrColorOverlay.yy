@@ -1,7 +1,7 @@
 {
   "$GMShader":"",
-  "%Name":"shader_block",
-  "name":"shader_block",
+  "%Name":"shdrColorOverlay",
+  "name":"shdrColorOverlay",
   "parent":{
     "name":"Shaders",
     "path":"folders/Shaders.yy",

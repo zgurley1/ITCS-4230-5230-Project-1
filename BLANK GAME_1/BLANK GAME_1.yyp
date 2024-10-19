@@ -95,7 +95,7 @@
     {"id":{"name":"seq_lose","path":"sequences/seq_lose/seq_lose.yy",},},
     {"id":{"name":"seq_title","path":"sequences/seq_title/seq_title.yy",},},
     {"id":{"name":"seq_win","path":"sequences/seq_win/seq_win.yy",},},
-    {"id":{"name":"shader_block","path":"shaders/shader_block/shader_block.yy",},},
+    {"id":{"name":"shdrColorOverlay","path":"shaders/shdrColorOverlay/shdrColorOverlay.yy",},},
     {"id":{"name":"snd_background_music","path":"sounds/snd_background_music/snd_background_music.yy",},},
     {"id":{"name":"snd_big_fireball","path":"sounds/snd_big_fireball/snd_big_fireball.yy",},},
     {"id":{"name":"snd_boss_laugh","path":"sounds/snd_boss_laugh/snd_boss_laugh.yy",},},

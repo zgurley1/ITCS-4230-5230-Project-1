@@ -11,3 +11,5 @@ invincible = false;
 knockback_dir = 0;
 
 //holding_bow = false;
+_uniColor = shader_get_uniform(shdrColorOverlay, "u_colour");
+_color    = [1.0, 1.0, 0.0, 1.0];
